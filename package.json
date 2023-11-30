@@ -1,0 +1,23 @@
+{
+  "name": "countries-and-cities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "node api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdogansad/countries-and-cities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdogansad/countries-and-cities/issues"
+  },
+  "homepage": "https://github.com/erdogansad/countries-and-cities#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
