@@ -34,6 +34,7 @@
     "#routes/*": "./api/router/routes/*",
     "#cities/*": "./api/router/routes/cities/*",
     "#countries/*": "./api/router/routes/countries/*",
-    "#states/*": "./api/router/routes/states/*"
+    "#states/*": "./api/router/routes/states/*",
+    "#get/*": "./api/router/routes/get/*"
   }
 }
