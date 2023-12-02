@@ -3,7 +3,11 @@ const json = require("../../../json/cities.json");
 
 router.get("/", (req, res, next) => {
   try {
-    if (req.query.state_id) {
+    if (req.query.id) {
+      const id = req.query.id;
+      const result = json.filter((city) => city.id === Number(id));
+      res.status(200).json(result);
+    } else if (req.query.state_id) {
       const state_id = req.query.state_id;
       const result = json.filter((city) => city.state_id === Number(state_id));
       res.status(200).json(result);
