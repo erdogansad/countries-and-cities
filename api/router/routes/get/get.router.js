@@ -22,8 +22,10 @@ router.get("/", (req, res, next) => {
       );
       result.country = country;
     }
-    res.status(200).json(result);
+    res.status(200).json([result]);
   } catch (err) {
     next(err);
   }
 });
+
+module.exports = router;
